@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Clyde</a>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-icon">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-img">
+      <img src="profile2.png" alt="Profile picture of Clyde" loading="lazy" />
+    </div>
+    <div class="home-content">
+      <h1>Hi, I'm <span>Clyde</span></h1>
+      <h3 class="typing-text">CS3B</h3>
+      <p>I’m a passionate and aspiring full stack web designer currently studying Computer Science. I build sleek, modern websites that are both functional and visually engaging.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <a href="#about" class="btn">About me</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">About</h2>
+    <div style="display:flex;flex-direction:column;align-items:center;">
+      <img src="profile2.png" alt="Avatar" style="width:120px;height:120px;border-radius:50%;margin-bottom:2rem;box-shadow:0 0 15px var(--color-primary);" />
+      <p style="max-width:600px;text-align:center;font-size:1.6rem;">
+        I'm Clyde, a BSCS student at the University of Northern Philippines. I specialize in crafting user-friendly websites with clean code and responsive design. I’m continuously learning and experimenting with modern technologies to deliver better user experiences.
+      </p>
+      <div style="margin-top:2rem;">
+        <h3 style="color:var(--color-secondary);font-size:2rem;text-align:center;">Key Skills</h3>
+        <ul style="display:flex;flex-wrap:wrap;justify-content:center;gap:1.5rem;list-style:none;margin-top:1rem;">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>UI/UX Design</li>
+          <li>Responsive Web Design</li>
+          <li>Git &amp; GitHub</li>
+          <li>Java</li>
+          <li>Firebase</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2 class="section-title">Services</h2>
+    <div class="service-container">
+      <div class="service-box">
+        <i class="fa-solid fa-paintbrush"></i>
+        <h3>Web Design</h3>
+        <p>Modern, clean, and visually appealing web interfaces tailored for the user.</p>
+      </div>
+      <div class="service-box">
+        <i class="fa-solid fa-object-group"></i>
+        <h3>UI/UX Design</h3>
+        <p>Designing intuitive layouts with user experience as the top priority.</p>
+      </div>
+      <div class="service-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>Frontend Development</h3>
+        <p>Building responsive and interactive interfaces using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="service-box">
+        <i class="fa-solid fa-wrench"></i>
+        <h3>Maintenance & Updates</h3>
+        <p>Offering updates and design improvements post-launch.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;">
+      <div style="background:var(--color-section);border-radius:1rem;padding:2rem;min-width:260px;max-width:320px;box-shadow:0 0 10px var(--color-secondary);">
+        <h3 style="color:var(--color-primary);margin-bottom:1rem;">Dishcovery App</h3>
+        <p style="font-size:1.4rem;">Interactive cooking lessons app.</p>
+        <p style="font-size:1.2rem;color:var(--color-secondary);margin-top:1rem;">Tech stack: Java, Android Studio, Firebase</p>
+      </div>
+      <div style="background:var(--color-section);border-radius:1rem;padding:2rem;min-width:260px;max-width:320px;box-shadow:0 0 10px var(--color-secondary);">
+        <h3 style="color:var(--color-primary);margin-bottom:1rem;">Portfolio Website</h3>
+        <p style="font-size:1.4rem;">My personal showcase site with responsive design.</p>
+        <p style="font-size:1.2rem;color:var(--color-secondary);margin-top:1rem;">Tech stack: HTML, CSS, JS</p>
+      </div>
+      <div style="background:var(--color-section);border-radius:1rem;padding:2rem;min-width:260px;max-width:320px;box-shadow:0 0 10px var(--color-secondary);">
+        <h3 style="color:var(--color-primary);margin-bottom:1rem;">CSS Organization App</h3>
+        <p style="font-size:1.4rem;">Student org app with member database &amp; login system.</p>
+        <p style="font-size:1.2rem;color:var(--color-secondary);margin-top:1rem;">Tech stack: Java Swing, File handling</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <h2 class="section-title">Experience &amp; Education</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:3rem;justify-content:center;">
+      <div style="background:var(--color-section);border-radius:1rem;padding:2rem;min-width:260px;max-width:350px;box-shadow:0 0 10px var(--color-secondary);">
+        <h3 style="color:var(--color-primary);margin-bottom:1rem;">Experience</h3>
+        <ul style="font-size:1.5rem;list-style:disc;margin-left:1.5rem;">
+          <li>Call Center Associate<br>
+            <span style="font-size:1.2rem;color:var(--color-secondary);">Provided professional customer service support and handled inquiries in a fast-paced environment.</span>
+          </li>
+        </ul>
+      </div>
+      <div style="background:var(--color-section);border-radius:1rem;padding:2rem;min-width:260px;max-width:350px;box-shadow:0 0 10px var(--color-secondary);">
+        <h3 style="color:var(--color-primary);margin-bottom:1rem;">Education &amp; Achievements</h3>
+        <ul style="font-size:1.5rem;list-style:disc;margin-left:1.5rem;">
+          <li>Bachelor of Science in Computer Science – University of Northern Philippines</li>
+          <li>CSS Secretary – San Emilio National High School</li>
+          <li>With High Honor</li>
+          <li>SSG Vice President</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div style="display:flex;flex-direction:column;align-items:center;">
+      <p style="font-size:1.6rem;margin-bottom:1rem;">Email: <a href="mailto:dcgcello@unp.eu.ph" style="color:var(--color-primary);">dcgcello@unp.eu.ph</a></p>
+      <p style="font-size:1.6rem;margin-bottom:1rem;">Phone: <a href="tel:09770651695" style="color:var(--color-primary);">09770651695</a></p>
+      <p style="font-size:1.6rem;margin-bottom:1rem;">Location: Tamag, Vigan City, Philippines</p>
+      <p style="font-size:1.8rem;color:var(--color-secondary);margin:2rem 0;">Let’s work together!</p>
+      <a href="https://www.facebook.com/share/152mdWycif" target="_blank" class="btn" style="margin-bottom:2rem;">Facebook</a>
+    </div>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
